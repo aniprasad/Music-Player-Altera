@@ -62,7 +62,7 @@ FIL File1;
 
 FILINFO Finfo;
 FATFS Fatfs[_VOLUMES];
-
+/* Variable declaration */
 // Variable to keep track of whether its paused or play
 volatile int play = 0;
 // Variable to keep track of how many times the play/pause button has been clicked
